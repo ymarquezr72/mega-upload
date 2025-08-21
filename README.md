@@ -6,7 +6,7 @@ This GitHub action allows you to upload a file to Mega.
 
 ```yml
 - name: Upload README.md
-  uses: Siege-Wizard/mega-upload@1.0.1
+  uses: ymarquezr72/mega-upload@1.0.0
   with:
     file: README.md
   env:
