@@ -1,4 +1,4 @@
-FROM debian:trixi-slim
+FROM debian:trixie-slim
 
 RUN apt-get update \
     && apt-get -y install \
