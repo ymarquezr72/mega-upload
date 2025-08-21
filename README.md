@@ -16,13 +16,10 @@ This GitHub action allows you to upload a file to Mega.
 
 **Required Parameters:**
 
-- `file`: The file that should be uploaded to anonfiles.com.
+- `file | folder\file | *.ext`: The source file or group files that should be uploaded to mega folder.
+- `mega folder`: The mega folder destination.
 
 **Environmetal variables:**
 
 - `USERNAME`: Mega username, should be provided from a secret.
 - `PASSWORD`: Mega password, should be provided from a secret.
-
-### Outputs
-
-- `url`: Url of the uploaded file.
