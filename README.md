@@ -23,3 +23,6 @@ This GitHub action allows you to upload a file to Mega.
 
 - `USERNAME`: Mega username, should be provided from a secret.
 - `PASSWORD`: Mega password, should be provided from a secret.
+
+----
+Thanks for Difegue/action-megacmd@master and Siege-Wizard/mega-upload:main
