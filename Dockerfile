@@ -8,7 +8,7 @@ RUN apt-get update \
     ca-certificates \
     && update-ca-certificates \
     && curl  \
-    https://mega.nz/linux/repo/Debian_13/amd64/megacmd_2.2.0-2.1_amd64.deb \
+    https://mega.nz/linux/repo/Debian_13/amd64/megacmd_2.5.2-1.1_amd64.deb \
     --output /tmp/megacmd.deb \
     && apt install /tmp/megacmd.deb -y \
     && apt-get clean \
